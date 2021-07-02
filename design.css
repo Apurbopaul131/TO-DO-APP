@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 70%;
+    height: 100vh;
+    background-color: #D3EFDF;
+    margin: 20px auto;
+    border: 3px solid #B1C9BB;
+    border-radius: 10px;
+    
+}
+.container img{
+    width: 100px;
+    height:100px;
+}
+.header{
+  text-align: center;
+  padding-top: 20px;
+    
+}
+.add-task{
+    width: 80%;
+    margin: 30px auto;
+    border: 2px solid #B1C9BB;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+form{
+    text-align: center;
+    padding: 10px;
+    /* width: 60%;
+    margin: 0 auto; */
+    /* border: 2px solid #B1c9BB; */
+
+}
+input[type="text"]{
+    padding: 5px;
+    
+    border: 2px solid black;
+  
+}
+input[type="submit"]{
+    padding: 5px;
+}
+.list-container{
+   display: flex;
+   justify-content: space-around;
+}
+.box{
+    border: 2px solid #B1C9BB;
+    padding: 10px;
+    flex-basis: 40%;
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    
+}
+ul{
+    list-style-type: none;
+}
+ul .item{
+    margin: 10px 0px;
+    border-bottom: 1px solid #B1C9BB;
+    padding-bottom: 5px;
+}
+.box h2{
+    text-align: center;
+    color: #57635C;
+    text-transform: uppercase;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 3px 5px;
+    margin-left: 50px;
+  
+}
+/* .completeList ul{
+    display: flex;
+    justify-content: space-between;
+} */
+
+#checkbox{
+    margin-right: 5px;
+}
